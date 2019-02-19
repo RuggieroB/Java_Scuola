@@ -1,10 +1,13 @@
 /*
-	# Java_Scuola
-
-	Java_Scuola
+# Java_Scuola
 
 
-	Algoritmo "Conto Corrente (CC) - 1" composto da 2 classi
+Java_Scuola
+
+
+
+
+- Algoritmo "Conto Corrente (CC) - "1" composto da 2 classi
 	{
 		"UsaConto": Crea un nuovo conto corrente inizializzato a 1000 €;
 		Versa 700 €;

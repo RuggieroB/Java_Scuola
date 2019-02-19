@@ -7,14 +7,15 @@ Java_Scuola
 
 
 
-- Algoritmo "Conto Corrente (CC) - "2" composto da 2 classi
+- Algoritmo "Conto Corrente (CC) - "3" composto da 2 classi
 	{
-		"CC1": Crea un nuovo conto corrente inizializzato a 3200 €;
+		"ContoCorrente1": Crea un nuovo conto corrente inizializzato a 3200 €;
 		Chiede all'utente se desideri prelevare o versare danaro e preleva o versa la somma inserita dall'utente;
-		Stampa il saldo finale.
+		Stampa il saldo finale;
+		Stampa il numero di conto corrente.
 	}
 	{
-		"CC2":
+		"ContoCorrente2":
 			- "saldo": Variabile che memorizza lo stato del conto;
 			- "ContoCorrente": Costruttore della classe;
 			- "versa": Metodo per il versamento di somme;
@@ -23,17 +24,17 @@ Java_Scuola
 */
 
 import java.util.*;
-public class CC1
+public class ContoCorrente1
 {
 	public static void main ( String [] args )
 	{
-		ContoCorrente cc = new ContoCorrente (3200);
+		ContoCorrente cc = new ContoCorrente (32000.00 , 455347);
 		int s;
 		double v=0,p=0;
 		Scanner in = new Scanner(System.in);
 		do
 		{
-			System . out . println ( " Che operazione desidera effettuare? Digiti \"1\" (uno), se desidera versare; digiti \"2\" (due), se desidera prelevare; 				digiti \"3\" (tre), se desidera visualizzare il Suo saldo; digiti \"0\" (zero), se desidera terminare le operazioni. \n Effettui la Sua scelta ora: \t 				" );
+			System . out . println ( " Che operazione desidera effettuare? Digiti \"1\" (uno), se desidera versare; digiti \"2\" (due), se desidera prelevare; digiti \"3\" (tre), se desidera visualizzare il Suo saldo; digiti \"4\" (quattro), se desidera visualizzare il numero del Suo conto; digiti \"0\" (zero), se desidera terminare le operazioni. \n Effettui la Sua scelta ora: \t " );
 			s = in . nextInt();
 			if
 			( s == 1 )
@@ -53,6 +54,11 @@ public class CC1
 			( s == 3 )
 			{
 				System . out . println ( " \n Saldo: \t " + cc . saldo );
+			}
+			else if
+			( s == 4 )
+			{
+				System . out . println ( " \n Numero di conto corrente: \t " + cc . numero );
 			}
 			else if
 			( s == 0 )
