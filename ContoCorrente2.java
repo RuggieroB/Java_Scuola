@@ -27,7 +27,7 @@ public class ContoCorrente2
 {
 	private double saldo;
 	private int numero;
-	public void ContoCorrente ( double saldoIniziale , int numeroConto )
+	public ContoCorrente2 ( double saldoIniziale , int numeroConto )
 	{
 		saldo = saldoIniziale ;
 		numero = numeroConto;
