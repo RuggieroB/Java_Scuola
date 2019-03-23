@@ -25,7 +25,7 @@ Java_Scuola
 public class CC2
 {
 	public double saldo;
-	public void ContoCorrente ( double saldoIniziale )
+	public CC2 ( double saldoIniziale )
 	{
 		saldo = saldoIniziale ;
 	}

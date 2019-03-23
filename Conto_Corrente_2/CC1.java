@@ -27,41 +27,41 @@ public class CC1
 {
 	public static void main ( String [] args )
 	{
-		ContoCorrente cc = new ContoCorrente (3200);
+		CC2 cc = new CC2(3200);
 		int s;
 		double v=0,p=0;
 		Scanner in = new Scanner(System.in);
 		do
 		{
-			System . out . println ( " Che operazione desidera effettuare? Digiti \"1\" (uno), se desidera versare; digiti \"2\" (due), se desidera prelevare; 				digiti \"3\" (tre), se desidera visualizzare il Suo saldo; digiti \"0\" (zero), se desidera terminare le operazioni. \n Effettui la Sua scelta ora: \t 				" );
-			s = in . nextInt();
+			System.out.println ( " Che operazione desidera effettuare? Digiti \"1\" (uno), se desidera versare; digiti \"2\" (due), se desidera prelevare; 				digiti \"3\" (tre), se desidera visualizzare il Suo saldo; digiti \"0\" (zero), se desidera terminare le operazioni. \n Effettui la Sua scelta ora: \t 				" );
+			s = in.nextInt();
 			if
 			( s == 1 )
 			{
-				System . out . println ( " \n Quanto desidera versare? Digiti l'importo: \t " );
-				v = in . nextDouble();
-				cc . versa (v);
+				System.out.println ( " \n Quanto desidera versare? Digiti l'importo: \t " );
+				v = in.nextDouble();
+				cc.versa (v);
 			}
 			else if
 			( s == 2 )
 			{
-				System . out . println ( " \n Quanto desidera prelevare? Digiti l'importo: \t " );
-				p = in . nextDouble();
-				cc . preleva (p);
+				System.out.println ( " \n Quanto desidera prelevare? Digiti l'importo: \t " );
+				p = in.nextDouble();
+				cc.preleva (p);
 			}
 			else if
 			( s == 3 )
 			{
-				System . out . println ( " \n Saldo: \t " + cc . saldo );
+				System.out.println ( " \n Saldo: \t " + cc . saldo );
 			}
 			else if
 			( s == 0 )
 			{
-				System . out . println ( " \n Grazie per aver utilizzato questo servizio. Arrivederci. " );
+				System.out.println ( " \n Grazie per aver utilizzato questo servizio. Arrivederci. " );
 			}
 			else
 			{
-				System .out . println ( " \n Scelta errata! " );
+				System.out.println ( " \n Scelta errata! " );
 			}
 		}
 		while
