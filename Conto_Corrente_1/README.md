@@ -53,4 +53,10 @@ Java_Scuola
 			- "preleva": Metodo per il prelievo di somme.
 	}
 
-- Programma "palestra": Calcolo costo abbonamento in base a sesso ed età del cliente.
+- Programma "palestra" - Una directory, una classe ed un main":
+	{
+		"cliente.java": Dati cliente.
+	}
+	{
+		"main": Calcolo costo abbonamento in base a sesso ed età del cliente.
+	}
