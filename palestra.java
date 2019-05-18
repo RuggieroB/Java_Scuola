@@ -6,6 +6,7 @@ Java_Scuola
 
 - Programma "palestra": Calcolo costo abbonamento in base a sesso ed età del cliente.
 */
+
 import java.util.*;
 public class palestra
 {
@@ -39,11 +40,32 @@ public class palestra
 		eta=in.nextInt();
 		palestra client=new palestra(nome,sesso,eta);
 		if(sesso=='m'||sesso=='M'){
-			if(eta<=10||eta>75){
-				System.out.println("\n"+client.ret_nome()+(": Abbonamento gratuito\n"));
+			switch(eta)
+			{
+				case eta<=10||eta>75:
+					System.out.println("\n"+client.ret_nome()+(": Abbonamento gratuito\n"));
+					break;
+				case (eta>=11&&eta<=25)||(eta>=65&&eta<=75):
+					System.out.println("\n"+client.ret_nome()+(": Costo abbonamento=\t"+c1));
+					break;
+				case eta>=26&&eta<65:
+					System.out.println("\n"+client.ret_nome()+(": Costo abbonamento=\t"+c2));
+					break;
 			}
-			else if((eta>=11&&eta<=64)||(eta>=65&&eta<=75)){
-				System.out.println("\n"+client.ret_nome()+(": Costo abbonamento=\t"+c1));
+					
+		}
+		else if(sesso=='f'||sesso=='F'){
+			switch(eta)
+			{
+				case eta<=14||eta>75:
+					System.out.println("\n"+client.ret_nome()+(": Abbonamento gratuito\n"));
+					break;
+				case (eta>=15&&eta<=30)||(eta>=65&&eta<=75):
+					System.out.println("\n"+client.ret_nome()+(": Costo abbonamento=\t"+c1));
+					break;
+				case eta>=31&&eta<65:
+					System.out.println("\n"+client.ret_nome()+(": Costo abbonamento=\t"+c2));
+					break;
 			}
 		}
 		
