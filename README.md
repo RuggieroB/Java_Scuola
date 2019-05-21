@@ -53,6 +53,9 @@ Java_Scuola
 			- "preleva": Metodo per il prelievo di somme.
 	}
 
+- Java_Scuola - (Interrogazione Prof.sa Faraone 19-20 Marzo 2019) - Rettangoli:
+		Programma "Rettangolo.java": Ricerca area maggiore tra 2 rettangoli.
+
 - Programma "palestra": Calcolo costo abbonamento in base a sesso ed età del cliente.
 
 - Programma "Parco Vetture" - 2 Classi:
