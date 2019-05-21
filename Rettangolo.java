@@ -1,3 +1,15 @@
+/*
+
+	# Java_Scuola
+
+	Java_Scuola
+
+
+	- Java_Scuola - (Interrogazione Prof.sa Faraone 19-20 Marzo 2019) - Rettangoli:
+		Programma "Rettangolo.java": Ricerca area maggiore tra 2 rettangoli.
+		
+*/	
+
 import java.util.*;
 public class Rettangolo {
     public double base,altezza;
