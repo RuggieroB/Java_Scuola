@@ -30,9 +30,9 @@ public class Pila
 	{
 		nnodi=0;
 	}
-	public void push(String marca,String modello, String targa,int cil,int serb,double res)
+	public void push(String marca,String modello, String targa,int cil,int imm,int serb,double res,long km)
 	{
-		Vettura a=new Vettura(marca,modello,targa,cil,serb,res);
+		Vettura a=new Vettura(marca,modello,targa,cil,imm,serb,res,km);
 		if(nnodi==0)
 		{
 			first=a;

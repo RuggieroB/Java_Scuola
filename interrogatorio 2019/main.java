@@ -27,8 +27,9 @@ public class main
 {
 	public static void main(String[] args)
 	{
-		int i,cil,serb;
+		int i,cil,imm,serb;
 		double res,rif;
+		long km;
 		String marca,modello,targa;
 		Scanner num=new Scanner(System.in);
 		Pila p=new Pila();
@@ -48,11 +49,15 @@ public class main
 					targa=num.next();
 					System.out.println(" \n Inserisci la cilindrata della vettura: \t ");
 					cil=num.nextInt();
-					System.out.println(" \n Inserisci la capacità del serbatoio carburante: \t ");
+					System.out.println(" \n Inserisci l'anno d'immatricolazione della vettura: \t ");
+					imm=num.nextInt();
+					System.out.println(" \n Inserisci la capacità, in litri, del serbatoio carburante: \t ");
 					serb=num.nextInt();
-					System.out.println(" \n Inserisci la capacità residua del serbatoio carburante: \t ");
+					System.out.println(" \n Inserisci la capacità residua, in litri, del serbatoio carburante: \t ");
 					res=num.nextDouble();
-					p.push(marca,modello,targa,cil,serb,res);
+					System.out.println(" \n Inserisci i chilometri totali percorsi dalla vettura: \t ");
+					km=num.nextLong();
+					p.push(marca,modello,targa,cil,imm,serb,res,km);
 					rif=((double)serb/100.0)*5.0;
 					if(res<=rif)
 					{
