@@ -76,7 +76,7 @@ Java_Scuola
 Interrogatorio 2019
 
 
-		- Programma "Interrogtorio 2019" - 3 Classi:
+		- Programma "Interrogtorio 2019" - Prof. F. Campetiello - 3 Classi:
 			{
 				"Pila.java": Gestione parco vetture:
 			}
