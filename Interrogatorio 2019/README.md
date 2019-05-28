@@ -4,7 +4,7 @@
 	
 # Interrogtorio 2019 - Prof. F. Campetiello
 	
-	Interrogatorio 2019 - Prof. F. Campetiello.
+	Interrogatorio 2019 - Prof. F. Campetiello
 
 
 			- Programma "Interrogtorio 2019" - Prof. F. Campetiello - 3 Classi:
