@@ -19,10 +19,9 @@
 				
 */
 
-import java.util.*;
 public class potenza
 {
-	private int base,esponente;;
+	private int base,esponente;
 	public potenza(int base,int esponente)
 	{
 		this.base=base;
@@ -36,9 +35,8 @@ public class potenza
 	{
 		return esponente;
 	}
-	long pow=(long)Math.pow(base,esponente);
-	public long getPow()
+	public long getPot()
 	{
-		return pow;
+		return (long)Math.pow(base,esponente);
 	}
 }

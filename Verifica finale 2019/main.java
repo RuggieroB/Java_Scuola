@@ -27,13 +27,13 @@ public class main
 	{
 		Scanner in=new Scanner(System.in);
 		int b,e,n_b;
-		//long p;
+		long p;
 		System.out.print("\nInserire la base della potenza:\t");
 		b=in.nextInt();
 		System.out.print("\nInserire l'esponente della potenza:\t");
 		e=in.nextInt();
 		potenza p1=new potenza(b,e);
-		//p=p1.getPow();
-		System.out.print("\n\nL'elevazione a potenza ha dato come risultato:\t"+p1.getPow());
+		p=p1.getPot();
+		System.out.print("\n\nL'elevazione a potenza ha dato come risultato:\t"+p+("\n\n"));
 	}
 }
