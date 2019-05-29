@@ -30,7 +30,7 @@
 				Stampa il saldo finale.
 			}
 			{
-				"CC2":
+				"CC2":metodo cambioBase() java
 					- "saldo": Variabile che memorizza lo stato del conto;
 					- "ContoCorrente": Costruttore della classe;
 					- "versa": Metodo per il versamento di somme;
@@ -103,7 +103,7 @@
 				
 					-  Programma "Verifica finale 2019" - Prof.ssa F. Esposito Faraone - 2 Classi:
 						{
-							"potenza.java": Calcolo della potenza dati in input la base e l'esponente. La base può essere variata con il metodo "cambiabase()".
+							"potenza.java": Calcolo della potenza dati in input la base e l'esponente. La base può essere variata con il metodo "cambiaBase()".
 						}
 						{
 							"main.java": Main.
